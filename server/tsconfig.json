@@ -7,7 +7,10 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "plugins": [
+      { "name": "ts-graphql-plugin", "schema": "schema.graphql", "tag": "gql" }
+    ]
   },
   "ts-node": {
     "transpileOnly": true
